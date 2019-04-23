@@ -1,6 +1,6 @@
 sudo: required #gran super user permissions
 services:
-    - doocker #install a copy of docker
+    - docker #install a copy of docker
 
 before_install:
     - docker build -t omryha/docker-react -f Dockerfile.dev .
